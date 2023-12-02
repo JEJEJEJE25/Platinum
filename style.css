@@ -101,5 +101,35 @@ section .form p,input{
     text-align: center;
     padding: 5px;
 }
-
+#videos{
+    pointer-events: none;
+    background-color: #FF0000;
+    height:580px;
+    width:953px;
+    border: 5px solid #0000;
+    float:left;
+}
+#queue{
+   
+    background-color: #33ff00;
+    height:580px;
+    width:300px;
+    border: 5px solid #0000;
+    float: left;
+    text-align: center;
+}
+#score{
+    pointer-events: none;
+    background-color: #2600ff;
+    height:580px;
+    width:200px;
+    border: 5px solid #0000;
+    float: left;
+    text-align: center;
+}
+table, th, td {
+    width:300px;
+    border: 1px solid;
+    text-align: center;
+}
 
